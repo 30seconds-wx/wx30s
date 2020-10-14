@@ -1,0 +1,8 @@
+<!--pages/list.wxml-->
+<view class="container list">
+  <navigator url="../mdDetail/mdDetail?id={{item.url}}" wx:for="{{list}}" class="list-item" wx:for-item="item" wx:key="index">
+    <text>{{item.name}}</text>
+    <!-- <icon class="icon-small" type="success_no_circle" size="23"></icon> -->
+    <text class="icon">〉</text>
+  </navigator>
+</view>

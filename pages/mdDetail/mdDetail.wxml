@@ -1,0 +1,5 @@
+<!--pages/mdDetail/mdDetail.wxml-->
+<view>
+  <wemark wx:if="{{md}}" md="{{md}}" link highlight type="wemark"></wemark>
+  <text wx:if="{{noData}}">文件解析失败</text>
+</view>
